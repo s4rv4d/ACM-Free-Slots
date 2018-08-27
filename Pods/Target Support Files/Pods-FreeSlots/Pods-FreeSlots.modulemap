@@ -1,0 +1,6 @@
+framework module Pods_FreeSlots {
+  umbrella header "Pods-FreeSlots-umbrella.h"
+
+  export *
+  module * { export * }
+}
