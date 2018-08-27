@@ -40,6 +40,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40633B5521341F6900F8CE8A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7824AEEC2132C3500037320A /* LandingPage.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		40633B5621341F7900F8CE8A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7824AEEE2132C3500037320A /* Main.storyboard */,
+				7824AEF32132C3520037320A /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		40633B5721341F8400F8CE8A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7824AEEA2132C3500037320A /* AppDelegate.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		6CD11A4CE6AF5F32F3DE303A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -69,11 +94,10 @@
 		7824AEE92132C3500037320A /* FreeSlots */ = {
 			isa = PBXGroup;
 			children = (
-				7824AEEA2132C3500037320A /* AppDelegate.swift */,
-				7824AEEC2132C3500037320A /* LandingPage.swift */,
-				7824AEEE2132C3500037320A /* Main.storyboard */,
+				40633B5721341F8400F8CE8A /* Services */,
+				40633B5521341F6900F8CE8A /* Controllers */,
+				40633B5621341F7900F8CE8A /* Views */,
 				7824AEF12132C3520037320A /* Assets.xcassets */,
-				7824AEF32132C3520037320A /* LaunchScreen.storyboard */,
 				7824AEF62132C3520037320A /* Info.plist */,
 			);
 			path = FreeSlots;
