@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1A3D41FC622C27F79958D449 /* Pods_FreeSlots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCAD3E081323F0784FDF2D1 /* Pods_FreeSlots.framework */; };
 		7824AEEB2132C3500037320A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824AEEA2132C3500037320A /* AppDelegate.swift */; };
-		7824AEED2132C3500037320A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824AEEC2132C3500037320A /* ViewController.swift */; };
+		7824AEED2132C3500037320A /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824AEEC2132C3500037320A /* LandingPage.swift */; };
 		7824AEF02132C3500037320A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7824AEEE2132C3500037320A /* Main.storyboard */; };
 		7824AEF22132C3520037320A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7824AEF12132C3520037320A /* Assets.xcassets */; };
 		7824AEF52132C3520037320A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7824AEF32132C3520037320A /* LaunchScreen.storyboard */; };
@@ -20,7 +20,7 @@
 		3BCAD3E081323F0784FDF2D1 /* Pods_FreeSlots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeSlots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7824AEE72132C3500037320A /* FreeSlots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeSlots.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7824AEEA2132C3500037320A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7824AEEC2132C3500037320A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7824AEEC2132C3500037320A /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
 		7824AEEF2132C3500037320A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7824AEF12132C3520037320A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7824AEF42132C3520037320A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				7824AEEA2132C3500037320A /* AppDelegate.swift */,
-				7824AEEC2132C3500037320A /* ViewController.swift */,
+				7824AEEC2132C3500037320A /* LandingPage.swift */,
 				7824AEEE2132C3500037320A /* Main.storyboard */,
 				7824AEF12132C3520037320A /* Assets.xcassets */,
 				7824AEF32132C3520037320A /* LaunchScreen.storyboard */,
@@ -204,7 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7824AEED2132C3500037320A /* ViewController.swift in Sources */,
+				7824AEED2132C3500037320A /* LandingPage.swift in Sources */,
 				7824AEEB2132C3500037320A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,7 +355,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SDDB7WX63J;
 				INFOPLIST_FILE = FreeSlots/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ACM.FreeSlots;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -371,7 +374,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SDDB7WX63J;
 				INFOPLIST_FILE = FreeSlots/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ACM.FreeSlots;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
